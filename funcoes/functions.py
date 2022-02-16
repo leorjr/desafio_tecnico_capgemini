@@ -4,7 +4,7 @@ def create_a_ladder():
 
     while True:
         try:
-            n = int(input('Informe a altura da escada (numérico): '))
+            n = int(input('Informe a altura da escada (numérico): ').strip())
             break
         except ValueError:
             print("Por favor, informe um valor numérico.")
